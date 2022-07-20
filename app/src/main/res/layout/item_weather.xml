@@ -5,112 +5,65 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        android:layout_weight="1"
         android:id="@+id/cd1"
-       >
+        style="@style/style_card_view"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
 
         <TextView
             android:id="@+id/is_day"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:padding="10dp"
-            android:gravity="center"
-            android:textSize="20sp"
-            />
+            style="@style/style_text_view" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        style="@style/style_card_view"
         app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        android:layout_weight="1"
-        >
+        app:cardElevation="4dp">
 
         <TextView
             android:id="@+id/temp_c"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:padding="10dp"
-            android:gravity="center"
-            android:textSize="20sp"
+            style="@style/style_text_view"
 
             />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        style="@style/style_card_view"
         app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        android:layout_weight="1"
-        >
+        app:cardElevation="4dp">
 
         <TextView
             android:id="@+id/wind_kph"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:padding="10dp"
-            android:gravity="center"
-            android:textSize="20sp"
+            style="@style/style_text_view"
 
             />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        style="@style/style_card_view"
         app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        android:layout_weight="1"
-        >
+        app:cardElevation="4dp">
 
         <TextView
             android:id="@+id/humidity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:padding="10dp"
-            android:gravity="center"
-            android:textSize="20sp"
+            style="@style/style_text_view"
 
             />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        style="@style/style_card_view"
         app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        android:layout_weight="1"
-        >
+        app:cardElevation="4dp">
 
         <TextView
             android:id="@+id/cloud"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:padding="10dp"
-            android:gravity="center"
-            android:textSize="20sp"
+            style="@style/style_text_view"
 
             />
     </androidx.cardview.widget.CardView>
-
-
 
 
 </LinearLayout>
