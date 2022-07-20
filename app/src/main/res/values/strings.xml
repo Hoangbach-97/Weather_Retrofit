@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather Today</string>
+    <string-array name="location">
+        <item>VietNam</item>
+        <item>London</item>
+        <item>Laos</item>
+        <item>Thailand</item>
+        <item>Australia</item>
+        <item>Singapore</item>
+    </string-array>
+</resources>
