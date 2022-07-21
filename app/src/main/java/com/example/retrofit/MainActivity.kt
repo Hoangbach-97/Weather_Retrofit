@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity(), Callback<Weather> {
         recyclerView = findViewById(R.id.list_item_recycle_view)
         recyclerView.adapter = WeatherAdapter(listWeather)
         initData(API_KEY, location)
+//        Comment for test push
     }
 
     fun initData(key: String, location: String) {
